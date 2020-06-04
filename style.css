@@ -1,0 +1,87 @@
+#navmenuen
+{
+	width: 70%;
+    text-align: right;
+    margin: auto;
+	padding-right: 10%;
+	
+}
+
+nav a + a:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	
+}
+#headcontainer {
+	width: 100%;
+    background-color: black;
+    display: inline-flex;
+}
+#logo {
+	width: 70%;
+	padding-left: 10%;
+}
+#logocontainer {
+	width:30%;
+}
+
+*{
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#gallericontainer{
+	width: 100%;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color:white;
+}
+
+#banner {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	
+}
+#baggrund {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	
+}
+#andloveramme {
+position: absolute;
+  right: 5%;
+  width: 20%;
+  margin-top: 20%;
+}
+#andlove {
+	width:100%;
+}
+
+#couch3 {
+	 position: absolute;
+  top: 30px;
+  left: 35%;
+  border: 1px green solid;
+  width: 25%;
+}
+
+#couch2 {
+	 position: absolute;
+  top: 30px;
+  left: 65%;
+  border: 1px green solid;
+  width: 25%;
+}
